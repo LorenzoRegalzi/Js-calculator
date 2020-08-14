@@ -4,16 +4,17 @@ let operationNumber = fixNumber;
 
 
 
-let firstNumber = 2;
-let secondNumber = 6;
 
-operationNumber = add(firstNumber, secondNumber);
-console.log(operationNumber);
-
-
-
-
-function add(first, second) {
-    result = first + second;
+function add() {
+    let firstNumber = fixNumber;
+    let secondNumber = parseInt(prompt());
+    result = firstNumber + secondNumber;
+    console.log(result);
     return result;
 }
+
+
+//parte 2
+
+
+somma.addEventListener("click", add);                               //good part of code is on the add function and we have clean the first envirorment 
